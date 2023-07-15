@@ -1,12 +1,12 @@
-import { createPagesFunctionHandler } from "@remix-run/cloudflare-pages";
+// import { createPagesFunctionHandler } from "@remix-run/cloudflare-pages";
 
-// @ts-ignore
-import * as build from "../build";
+// // @ts-ignore
+// import * as build from "../build";
 
-const handleRequest = createPagesFunctionHandler({
-    build
-});
+// const handleRequest = createPagesFunctionHandler({
+//     build
+// });
 
-export function onRequest(context) {
-    return handleRequest(context);
-}
+// export function onRequest(context) {
+//     return handleRequest(context);
+// }
